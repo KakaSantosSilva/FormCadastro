@@ -1,0 +1,36 @@
+body{
+    font-family: Arial;
+    background-image:linear-gradient(to right, rgb(123, 19, 139), rgb(58, 9, 65)) ;
+   }
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 15px;
+    width: 20%;
+}
+fieldset{
+    border: 3px solid rgb(90, 0, 90);
+}
+legend{
+    border: 1px solid rgb(90, 0, 90) ;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: rgb(90, 0, 90);
+}
+.inputbox{
+    position: relative;
+
+}
+.inputUser{
+    position: relative;
+    background: none;
+    border: none;
+
+}
